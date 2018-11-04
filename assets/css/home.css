@@ -1,0 +1,30 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body{background-color:#F1F1F1;margin:0}
+button,input{margin:0;padding:0;border:none;font:inherit;color:inherit}
+button,input[type="button"]{-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;display:block}
+.right{float:right}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;position:relative;width:1024px;z-index:10}
+.blue{color:#0090d7}
+.bg-blue{background-color:#0090d7}
+a.bg-blue{color:white}
+button.bg-blue:hover{background-color:#006ea4}
+.mb30{margin-bottom:30px}
+body{font-size:16px;color:#000;font-family:'Lato', sans-serif;font-weight:400}
+.f23{font-size:1.44em}
+.white{color:white}
+::-webkit-input-placeholder{color:#575757}
+:-moz-placeholder{color:#575757}::-moz-placeholder{color:#575757}
+:-ms-input-placeholder{color:#575757}
+.btn{color:#FFF;font-size:0.75em;padding:8px 30px;text-align:center;display:inline-block;text-transform:uppercase}
+input[type="text"],input[type="password"]{height:45px;width:100%;padding:10px;background-color:#FFF;border:1px solid #FFF}
+.modal{display:none;position:fixed;top:0;left:0;z-index:999999;overflow:scroll;background-color:#000;background-color:rgba(0,0,0,0.8);top:0;left:0;z-index:999;width:100%;height:100%}
+.modal .logo{height:110px;padding-top:30px}
+.modal .container{width:500px}
+.login{background-color:#030405;padding:45px 40px 30px;word-break:break-word}
+.login .input,.login button{width:315px;margin:0 auto 25px}
+.login .input{position:relative}
+.login .input .icon{width:50px;height:45px;position:absolute;top:0;left:0;background:#AAA center center no-repeat}
+.login .input .icon.lock{background-image:url(../img/icons/lock.png)}
+.login .input .icon.key{background-image:url(../img/icons/key.png)}
+.login .input input{padding-left:60px}
+.login button{display:block;padding-top:15px;padding-bottom:15px}
